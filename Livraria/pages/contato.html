@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Livraria</title>
+    <link rel="stylesheet" href="/home/thiago_galvao/Documents/Livraria/css/style.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contate-nos</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999">
+            </div>
+            <div>
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="" disabled selected>-- Selecione --</option>
+                    <option value="Trocas">Trocas</option>
+                    <option value="Atendimento">Atendimento</option>
+                    <option value="Comercial">Comercial</option>
+                    <option value="Outros">Outros</option>
+                </select>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui."></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="receber-info" name="receber-info">
+                <label for="receber-info">Desejo receber informações sobre a Livraria John e Paul</label>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+<script>
+</script>
+</html>

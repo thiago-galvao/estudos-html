@@ -1,0 +1,22 @@
+#topo{
+    color: red;
+    text-align: center;
+}
+
+.destaques h2{
+    color: blue;
+}
+
+.destaques img{
+    width: 150px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+.sobre h3{
+    color: red;
+}
+
+#tabela tfoot{
+    text-align: center;
+}
