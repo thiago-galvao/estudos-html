@@ -1,0 +1,16 @@
+#topo{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+#menu ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#menu li{
+    margin-right: 5%;
+}
